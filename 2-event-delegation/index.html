@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Delegation</title>
+    <style>
+      /* Event Propagation Demo */
+      #outer {
+        background-color: #ffcccc;
+        padding: 30px;
+        border-radius: 8px;
+      }
+      #inner {
+        background-color: #ccffcc;
+        padding: 30px;
+        border-radius: 8px;
+      }
+      #btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Event Propagation (Bubbling)</h1>
+
+    <p>Click the button and watch the console to see how events bubble up.</p>
+
+    <div id="outer">
+      Outer div (red)
+      <div id="inner">
+        Inner div (green)
+        <button id="btn">Click me</button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
