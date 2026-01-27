@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Flip Game</title>
+    <style>
+      #card-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 80px);
+        gap: 10px;
+      }
+      .card {
+        width: 80px;
+        height: 100px;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 8px;
+        border: 2px solid #333;
+        background-color: #333;
+        color: transparent; /* Face-down: emoji is hidden */
+      }
+      .card.flipped {
+        /* Face-up: emoji is visible */
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Card Flip</h1>
+    <p>Click a card to flip it over!</p>
+    <div id="card-grid"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
