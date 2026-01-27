@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Content Basics</title>
+    <style>
+      /* Internal stylesheet for simplicity */
+      #container {
+        border: 2px solid #333;
+        padding: 20px;
+        margin: 20px 0;
+      }
+      .highlight {
+        background-color: yellow;
+      }
+      #my-list {
+        background-color: #f0f0f0;
+        padding: 10px;
+      }
+      li {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Dynamic Content Basics</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Container for New Elements</h2>
+        <div id="container">
+          <p>This section demonstrates how to create elements dynamically using JavaScript.</p>
+          <p class="highlight">Remember the pattern: Create, Modify, Append!</p>
+          <p>Try adding new content here with JS using document.createElement and append.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>List for New Items</h2>
+        <button id="add-item-btn">Add an Item</button>
+        <ul id="my-list">
+          <!-- List items will be added here -->
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made with ❤️ at <a href="https://marcylabschool.org">The Marcy Lab School</a></p>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
