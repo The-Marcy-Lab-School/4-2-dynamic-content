@@ -4,9 +4,9 @@ const friends = ['Alice', 'Bob', 'Carol', 'David'];
 
 // const ul = document.querySelector('#friends-list');
 
-// friends.forEach((friendName) => {
+// friends.forEach((friend) => {
 //   const li = document.createElement('li');
-//   li.textContent = friendName;
+//   li.textContent = friend;
 //   ul.append(li);
 // });
 
@@ -19,24 +19,27 @@ const movies = [
     title: 'The Matrix',
     year: 1999,
     genres: ['Sci-Fi', 'Action'],
-    src: 'https://upload.wikimedia.org/wikipedia/en/d/db/The_Matrix.png'
+    src: 'https://upload.wikimedia.org/wikipedia/en/d/db/The_Matrix.png',
+    funFact: 'The film popularized the "bullet time" visual effect.'
   },
   {
     title: 'Inception',
     year: 2010,
     genres: ['Sci-Fi', 'Thriller'],
-    src: 'https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg'
+    src: 'https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg',
+    funFact: 'The rotating hallway fight was done with practical effects.'
   },
   {
     title: 'Parasite',
     year: 2019,
     genres: ['Thriller', 'Drama'],
-    src: 'https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.png'
+    src: 'https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.png',
+    funFact: 'It was the first South Korean film to win the Academy Award for Best Picture.'
   }
 ];
 
-/* 
-Recreate this structure:
+/*
+TODO: recreate this structure dynamically:
 
 <ul id="movies-list">
   <li>
@@ -47,3 +50,7 @@ Recreate this structure:
   <!-- more list items... -->
 </ul>
 */
+
+
+
+/* TODO: Use event delegation to handle event clicks */

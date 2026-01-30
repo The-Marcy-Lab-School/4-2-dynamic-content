@@ -9,6 +9,7 @@
         display: grid;
         grid-template-columns: repeat(4, 80px);
         gap: 10px;
+        list-style: none;
       }
       .card {
         width: 80px;
@@ -21,7 +22,6 @@
         border-radius: 8px;
         border: 2px solid #333;
         background-color: #333;
-        color: transparent; /* Face-down: emoji is hidden */
       }
       .card.flipped {
         /* Face-up: emoji is visible */
@@ -33,7 +33,9 @@
   <body>
     <h1>Card Flip</h1>
     <p>Click a card to flip it over!</p>
-    <div id="card-grid"></div>
+    <ul id="card-grid">
+      <!-- Dynamically generate cards here -->
+    </ul>
 
     <script src="./index.js"></script>
   </body>
