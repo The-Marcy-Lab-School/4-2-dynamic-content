@@ -10,13 +10,17 @@ To add new elements to the page:
 // Example 1: Create a single paragraph
 // TODO: Uncomment and run to see the result
 
-const newParagraph = document.createElement('p');
-newParagraph.textContent = 'This paragraph was created with JavaScript!';
-newParagraph.classList.add('highlight');
-newParagraph.id = 'dynamic-paragraph';
+// 1 - Create
+// const newParagraph = document.createElement('p');
 
-const container = document.querySelector('#container');
-container.append(newParagraph);
+// 2 - Modify
+// newParagraph.textContent = 'This paragraph was created with JavaScript!';
+// newParagraph.classList.add('highlight');
+// newParagraph.id = 'dynamic-paragraph';
+
+// 3 - Append
+// const container = document.querySelector('#container');
+// container.append(newParagraph);
 
 
 // Example 2: Create multiple list items
