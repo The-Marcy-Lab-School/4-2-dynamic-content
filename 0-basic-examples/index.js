@@ -22,17 +22,17 @@ container.append(newParagraph);
 // Example 2: Create multiple list items
 // TODO: Uncomment and run to see the result
 
-const ul = document.querySelector('#my-list');
-const li1 = document.createElement('li');
-const li2 = document.createElement('li');
-const li3 = document.createElement('li');
+// const li1 = document.createElement('li');
+// const li2 = document.createElement('li');
+// const li3 = document.createElement('li');
 
-li1.textContent = '1';
-li2.textContent = '2';
-li3.textContent = '3';
+// li1.textContent = '1';
+// li2.textContent = '2';
+// li3.textContent = '3';
 
-// You can append multiple elements at once!
-ul.append(li1, li2, li3);
+// // You can append multiple elements at once!
+// const ul = document.querySelector('#my-list');
+// ul.append(li1, li2, li3);
 
 
 // Challenge: Add an event listener to the button to add a new list item when clicked.
